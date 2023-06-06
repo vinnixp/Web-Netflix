@@ -1,0 +1,208 @@
+@import url('');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Reboto' , sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image:url("background.jpg");
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.conteudo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0,0,0, 0.1);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content:center ;
+    gap: 5px;
+    justify-content:center;
+    background-color: rgb(0,0,0, 0.9);
+    padding: 5rem 2rem;
+}
+
+.logo{
+    width: 35%;   
+}
+
+.logo img{
+    width: 55px;
+    height: 20px; 
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    border-color:rgb(0,0,0, 0.1);
+    padding: 5px;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    margin-top: 0;
+  }
+
+
+.login h1{
+    font-weight: 800;
+    letter-spacing: 1px;
+    width: 90%;
+    font-size: 20px; 
+}
+
+.login form{
+    min-width: 90%;
+    min-height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login input[type="text"] {
+    min-width: 90%;
+    min-height: 15%;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.login input[type="password"] {
+    min-width: 90%;
+    min-height: 15%;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.login input[type="submit"] {
+    min-width: 90%;
+    min-height: 18%;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background:rgb(26, 255, 0);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#input{
+    min-width: 90%;
+    min-height: 18%;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background:red;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.login input:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+    gap: 5px;
+    justify-content:center;
+    background-color: rgb(0,0,0, 0.9);
+    padding: 5rem 2rem;
+}
+
+
+.info{
+    min-width: 90%;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.info input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+}
+
+
+.info input:hover{
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+    text-decoration: underline;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+  }
+
+span{
+    color: white;
+    text-decoration: none;
+}
+  
+a:hover{
+    background-color: rgba(0, 0, 0, 0.031);
+    color:white;
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+span:hover{
+    background-color: rgba(0, 0, 0, 0.031);
+    color:white;
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+
+@media only screen and (max-width:999px){
+    section{
+        min-width: 50%;
+    }
+}
+
+@media only screen and (max-width:499px){
+    section{
+        min-width: 100%;
+    }
+
+    .login{
+        height: 90vh;
+    }
+}   
